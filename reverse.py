@@ -4,5 +4,5 @@ def reverse_string_recursive(s):
     else:
         return s[-1] + reverse_string_recursive(s[:-1])  # Recursive case
 
-# Example usage
-print(reverse_string_recursive("hello"))  # Output: "olleh"
+print(reverse_string_recursive("hello")) 
+ # Output: "olleh"
