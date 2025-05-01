@@ -8,6 +8,7 @@ def sum_of_digits_loop(n):
         n //= 10  # Remove the last digit
     return total
 
-# Example usage
-print(sum_of_digits_loop(1234))  # Output: 10
-print(sum_of_digits_loop(-567))   # Output: 18
+print(sum_of_digits_loop(1234)) 
+ # Output: 10
+print(sum_of_digits_loop(-567)) 
+ # Output: 18
