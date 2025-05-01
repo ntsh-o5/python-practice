@@ -7,6 +7,8 @@ def factorial_recursive(n):
     # Recursive case: n! = n * (n-1)!
     return n * factorial_recursive(n - 1)
 
-# Example usage
-print(factorial_recursive(5))  # Output: 120
-print(factorial_recursive(0))  # Output: 1
+
+print(factorial_recursive(5)) 
+ # Output: 120
+print(factorial_recursive(0)) 
+ # Output: 1
