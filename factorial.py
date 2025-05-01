@@ -6,6 +6,8 @@ def factorial_loop(n):
         result *= i
     return result
 
-# Example usage
-print(factorial_loop(5))  # Output: 120
-print(factorial_loop(0))  # Output: 1
+
+print(factorial_loop(5)) 
+ # Output: 120
+print(factorial_loop(0)) 
+ # Output: 1
