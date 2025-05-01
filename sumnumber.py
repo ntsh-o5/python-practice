@@ -1,5 +1,3 @@
-Code
-
 def sum_of_digits_loop(n):
     n = abs(n)  # Handle negative numbers
     total = 0
