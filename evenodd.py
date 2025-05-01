@@ -1,6 +1,3 @@
-
-Code
-
 def is_even_or_odd_recursive(num):
     if num < 0:
         num = -num  # Handle negative numbers
@@ -11,6 +8,8 @@ def is_even_or_odd_recursive(num):
     else:
         return is_even_or_odd_recursive(num - 2)
 
-# Example usage
-print(is_even_or_odd_recursive(4))  # Output: Even
-print(is_even_or_odd_recursive(7))  # Output: Odd
+
+print(is_even_or_odd_recursive(4)) 
+ # Output: Even
+print(is_even_or_odd_recursive(7)) 
+ # Output: Odd
