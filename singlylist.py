@@ -75,16 +75,16 @@ class SinglyLinkedList:
             current = current.next
         print(" -> ".join(values))
 
-# Example usage
+
 if __name__ == "__main__":
     sll = SinglyLinkedList()
     sll.insert_at_end(10)
     sll.insert_at_end(20)
     sll.insert_at_start(5)
     sll.insert_at_index(2, 15)
-    sll.display()  # Expected: 5 -> 10 -> 15 -> 20
-    print(sll.search(15))  # Expected: 2
-    print(sll.search(100))  # Expected: -1
+    sll.display()  
+    print(sll.search(15))  
+    print(sll.search(100))  
     sll.delete_at_index(1)
-    sll.display()  # Expected: 5 -> 15 -> 20
+    sll.display()  
 
